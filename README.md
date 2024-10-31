@@ -1,1 +1,2 @@
-# PC1-IFB
+# EDA-IFB
+Repositoria para atividades da disciplina.
