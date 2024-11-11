@@ -64,7 +64,7 @@ int main(int argc, char *argv[]){
 
 	mergesortd(arr, sort, argc-1);
 	
-	for(int i=0; i<argc-1; i++) printf("%0.2lf, ", sort[i]);
+	for(int i=0; i<argc-1; i++) printf("%.2lf, ", sort[i]);
 	printf("\n");
 
 	return 0;
