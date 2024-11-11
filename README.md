@@ -1,2 +1,2 @@
 # EDA-IFB
-Repositoria para atividades da disciplina.
+Repositório para atividades da disciplina.
