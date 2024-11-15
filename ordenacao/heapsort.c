@@ -24,7 +24,5 @@ int main(int argc, char *argv[]){
 
 	for(int i=0; i<argc-1; i++) arr[i]=atof(argv[i+1]);
 	
-
-
 	return 0;
 }
