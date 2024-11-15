@@ -1,12 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
 void heapsortd(double *v, int n){
 
 
 
 	
 }
+*/
+
+/*
+type heapfy(){
+
+
+
+}
+*/
 
 int main(int argc, char *argv[]){
 
