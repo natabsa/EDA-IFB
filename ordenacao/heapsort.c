@@ -41,14 +41,11 @@ void heapsortd(double *heap, size_t size){
 int main(int argc, char *argv[]){
 
 	double arr[argc-1];
-
 	for(int i=0; i<argc-1; i++) arr[i]=atof(argv[i+1]);
-	for(int i=0; i<argc-1; i++) printf("%.2lf\n", arr[i]);
-	printf("\n");
+
 	buildheapd(arr, argc-1);
-	for(int i=0; i<argc-1; i++) printf("%.2lf\n", arr[i]);
-	printf("\n");
 	heapsortd(arr, argc-1);
+	
 	for(int i=0; i<argc-1; i++) printf("%.2lf\n", arr[i]);
 
 	return 0;
