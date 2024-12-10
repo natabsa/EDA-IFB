@@ -21,3 +21,5 @@ void pqinitialize(struct pq* queue);
 void pqdelete(struct pq* queue);
 
 void pqpush(struct pq* queue);
+
+void pqpop(struct pq* queue);
