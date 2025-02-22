@@ -2,7 +2,7 @@
 
 struct process
 {
-	char name[30];
+	char name[31];
 	int pid;
 	int time;
 };
@@ -10,8 +10,8 @@ struct process
 struct pq
 {
 	struct process *queue;
-	int front;
-	int back;
+	struct process *front;
+	struct process *back;
 	int capacity;
 	int size;
 };
@@ -20,6 +20,6 @@ void pqinitialize(struct pq* queue);
 
 void pqdelete(struct pq* queue);
 
-void pqpush(struct pq* queue);
+void pqinsert(struct pq* queue, struct process p);
 
 void pqpop(struct pq* queue);
